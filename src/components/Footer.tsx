@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             {/* About Section */}
             <div className="space-y-4">
-              <h3 className="text-lg font-semibold gradient-text">Chaitanya V. Yadav</h3>
+              <h3 className="text-lg font-semibold gradient-text">Chaitanya Yadav</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Software Developer and BCA Graduate passionate about creating innovative solutions 
                 with modern technologies. Currently pursuing MCA and building the future, one line of code at a time.
@@ -95,7 +95,7 @@ const Footer = () => {
           {/* Bottom Section */}
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
-              <span>&copy; {currentYear} Chaitanya V. Yadav. Made with</span>
+              <span>&copy; {currentYear} Chaitanya Yadav. Made with</span>
               <Heart className="w-4 h-4 text-red-500 fill-current animate-pulse" />
               <span>and React</span>
             </div>
